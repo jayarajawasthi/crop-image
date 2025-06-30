@@ -40,7 +40,7 @@ const LeftPanel = ({ onImageUpload }) => {
             >
                 Drop image here or 
                 <label className="upload-button">
-                    select <input type="file" accept="image/*" onChange={{handleFileChange}} />
+                    select <input type="file" accept="image/*" onChange={handleFileChange} />
                 </label>
             </div>
         </div>
