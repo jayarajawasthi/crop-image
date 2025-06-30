@@ -1,7 +1,7 @@
 import React from "react";
-import LeftPanel from "./LeftPanel";
-import RightPanel from "./RightPanel";
 import "./HeroSection.css";
+import LeftPanel from "../LeftPanel/Leftpanel";
+import RightPanel from "../RightPanel/RightPanel";
 
 
 const HeroSection = () => {
